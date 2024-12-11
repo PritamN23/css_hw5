@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.outer-box {
+    border: 4px solid red;
+    /* Outer box surrounding all the content */
+    padding: 20px;
+    width: 600px;
+    /* Fixed width */
+    height: 410px;
+    /* Fixed height to make the outer box square */
+    margin: 20px auto;
+    /* Center the outer box */
+}
+
+.box {
+    border: 3px solid red;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+    margin-top: 20px;
+}
+
+ul {
+
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    border: 3px solid red;
+    padding: 5px;
+}
+
+button,
+a {
+    border: 3px solid red;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+/* p {
+margin-top: 20px;
+} */
